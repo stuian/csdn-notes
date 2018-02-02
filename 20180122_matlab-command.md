@@ -171,3 +171,17 @@ matlab中DIP工具箱函数im2bw使用阈值（threshold）变换法把灰度图
 
 ### 7、常用数值拟合 ###
 
+1、
+
+- p = polyfit(x,y,n)
+- f=polyval(p,x)
+- plot出x和f即可
+
+> r=corrcoef(x,y);——求相关系数
+
+2、legend就是添加图例的标注
+
+norm（x,2）—— 2-范数
+
+### 8、常用数据插值 ###
+
