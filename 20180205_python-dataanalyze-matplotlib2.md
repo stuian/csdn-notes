@@ -80,3 +80,39 @@
 
 4、雷达图
 
+    #polar
+	fig.add_subplot(334)
+	theta = np.arange(0.0,2*np.pi,2*np.pi/n)
+	#0-2pi，间隔是2pi/n
+	radii = 10*np.random.rand(n)
+	# 半径
+	plt.polar(theta,radii)
+
+5、热图
+
+    fig.add_subplot(335)
+    	from matplotlib import cm
+    	# 用来上色
+    	data = np.random.rand(3,3)
+    	cmap = cm.Blues
+    	map = plt.imshow(data,interpolation='nearest',cmap=cmap,aspect='auto',vmin=0,vmax=1)
+    	# interpolation指插值，vmin=0指为白色，vmax这里指蓝色
+
+6、3D图
+
+	from mpl_toolkits.mplot3d import Axes3D
+	ax = fig.add_subplot(336,projection="3d")
+	ax.scatter(1,1,3,s=100)
+
+7、热力图
+
+    fig.add_subplot(313)
+    	# 第三行第一列到第二列
+    	def f(x,y):
+    		return (1-x/2+x**5+y**3)*np.exp(-x **2 -y**2)
+    	n = 256
+    	x = np.linspace(-3,3,n)
+    	y = np.linspace(-3,3,n)
+    	X,Y = np.meshgrid(x,y)
+    	plt.contourf(X,Y,f(X,Y),8,alpha=.75,camp=plt.cm.hot)
+    	plt.savefig("./data/fig.png")
