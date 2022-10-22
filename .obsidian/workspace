@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "b19fb08adb0ca215",
+    "type": "split",
+    "children": [
+      {
+        "id": "aaf3cab49390d47e",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eeeccafa60628867",
+    "type": "split",
+    "children": [
+      {
+        "id": "3912d97adf01e08c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38c2cde90ebcfcc5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9c9f9f13ac9382ba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "acf6386488cd1b85",
+    "type": "split",
+    "children": [
+      {
+        "id": "122c617e1847e3e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61e76087cd2feecf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "aaf3cab49390d47e",
+  "lastOpenFiles": [
+    "2021/2022 测试.md",
+    "2021/20211205快速进入状态.md"
+  ]
+}
